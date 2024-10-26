@@ -24,6 +24,7 @@ import SwiftGlibc
 #else
 import SQLite3
 #endif
+import Foundation
 
 /// This enum type indicates an exception when dealing with a SQLite database
 public struct SQLiteError : Error, CustomStringConvertible {
